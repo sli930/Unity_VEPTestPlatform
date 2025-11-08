@@ -1,0 +1,3 @@
+[submodule "Assets/Scripts/unity-gamesense-client"]
+	path = Assets/Scripts/unity-gamesense-client
+	url = https://github.com/SteelSeries/unity-gamesense-client
