@@ -2,6 +2,7 @@
 using SteelSeries.GameSense.DeviceZone;
 using System;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -17,7 +18,7 @@ public class KeyboardControl : MonoBehaviour
     public float frames_per_bit = 3.0f;
     public GameObject button_Prefab;
     public RectTransform bottom_Panel;
-    public Text modeButton_Text;
+    public TextMeshProUGUI modeButton_Text;
 
     /// <summary>
     /// Limit the maximum FPS when start
@@ -81,6 +82,10 @@ public class KeyboardControl : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
             Restart_CurrentScene();
+        }
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            Toggle_Mode();
         }
     }
 
