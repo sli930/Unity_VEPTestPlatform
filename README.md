@@ -11,3 +11,7 @@
 [**GameSense™ Client for Unity Engine**](https://github.com/SteelSeries/unity-gamesense-client)
 
 [**Unity-GameSense-Project**](https://github.com/SteelSeries/Unity-GameSense-Project?tab=readme-ov-file)
+
+# Packages
+
+[**BrainFlow**](https://www.nuget.org/packages/brainflow/)
